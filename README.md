@@ -53,10 +53,11 @@ There are several categories of issues found in the package source files, most o
 
    * Example: `Binding element 'displayString' implicitly has an 'any' type.`
 
-  Standard TS error in the source.
-3. Jest Types Dependency: `Cannot find name 'jest'.`
+   Standard TS error in the source.
    
-	 Forces us to install 3rd party types package to resolve. `npm i -D @types/jest` . Installing this will resolve all type issues listed here, somehow.
+3. Jest Types Dependency: `Cannot find name 'jest'.`
+ 
+   Forces us to install 3rd party types package to resolve. `npm i -D @types/jest` . Installing this will resolve all type issues listed here, somehow.
 
 
 ### Additional Note: Circular Genome View
